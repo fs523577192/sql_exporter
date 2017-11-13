@@ -14,7 +14,7 @@ dependencies {
 	compile 'commons-beanutils:commons-beanutils:1.9.3'
 	compile 'com.microsoft.sqlserver:mssql-jdbc:6.2.2.jre7'
 	compile 'mysql:mysql-connector-java:5.1.44'
-	compile files('G:/DBeaver/ojdbc6.jar', 'F:/MyEclipse/gnete-sett-web/WebRoot/WEB-INF/lib/json-lib-2.4-jdk15.jar')
+	compile files('./lib/ojdbc6.jar', './lib/json-lib-2.4-jdk15.jar')
 }
 
 compileJava {
